@@ -30,7 +30,8 @@ import userRouter from "./routes/user.routes.js";
 
 
 // Routes declaration :-
-app.use("/users", userRouter, )
+app.use("/api/v1/users", userRouter, )
+// standard practice is to descripe api and versioning of it. 
 
 
 export { app };
